@@ -32,11 +32,11 @@ tx.sign(privateKey);
 var serializedTx = tx.serialize();
 console.log(serializedTx);
 
-/*web3.eth.sendRawTransaction(serializedTx.toString('hex'), function (err, hash) {
+web3.eth.sendRawTransaction(serializedTx.toString('hex'), function (err, hash) {
     if (err) {
         console.log("" + err)
     }
     else {
         console.log(hash);
     }
-});*/
+});
